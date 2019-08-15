@@ -8,7 +8,7 @@
 ### 项目结构
 
 ```
---- examples 项目目录名
+--- webpack_Doc 项目目录名
     --- src 项目文件
     --- dist 开发环境打包后的文件
         --- index.html 页面入口
