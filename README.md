@@ -9,11 +9,11 @@
 
 ```
 --- webpack_Doc 项目目录名
-    --- src 项目文件
-    --- dist 开发环境打包后的文件
+    --- src 开发环境项目目录
+    --- dist 开发环境打包后的文件目录
         --- index.html 页面入口
         --- main.bundle.js 打包后的 js 文件
---- release 生产环境打包后的文件
+--- release 生产环境打包后的文件目录
 --- build webpack 配置项
 --- package.json 模块包及命令配置
 --- .babelrc 用于配置webpack中babel-loader option属性
