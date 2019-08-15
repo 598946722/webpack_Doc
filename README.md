@@ -1,4 +1,4 @@
-## webpack 教程
+## webpack4+ 教程
 
 ```
 本教程基于 webpack4.0+，需要下载 webpack 及 webpack-cli
@@ -419,6 +419,10 @@ webapck作为功能模块存在
 
 webpack4- 版本中打包直接通过webapck实现，功能未拆分
 ```
+
+### webpack打包会出现的问题
+
+### 关于事件轮询
 
 ## webapck5新特性介绍
 
