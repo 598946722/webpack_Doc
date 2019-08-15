@@ -16,6 +16,7 @@
 --- release 生产环境打包后的文件目录
 --- build webpack 配置项
 --- package.json 模块包及命令配置
+--- tsconfig.json typescript环境参数属性配置
 --- .babelrc 用于配置webpack中babel-loader option属性
 ```
 
