@@ -432,9 +432,16 @@ webpack4- 版本中打包直接通过webapck实现，功能未拆分
 
 ```
 1. node必须升级到 8.0以上的版本
-2. 目前还在alpha版本，如果想要尝鲜安装可以：npm install webpack@next —save-dev
+
+2. 目前还在alpha版本，如果想要尝鲜安装可以：
+   npm install webpack@next —save-dev  
+   npm run dev
+
 3. 在开发模式中可以启用id命名的块替代 Magic Comments
+
 4. 编译速度提高
+
 5. 打包后文件体积是4+版本的 一半甚至三分之一
+
 6. Node.js polyfills 自动被移除
 ```
