@@ -431,7 +431,19 @@ webpack4- 版本中打包直接通过webapck实现，功能未拆分
 ### 样式拆分/压缩/优化
 
 ```
-待完善
+// 配置项
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+{
+   //解析.scss文件
+    test: /\.(sa|sc|c)ss$/,
+    use: [
+        'css-hot-loader',
+        MiniCssExtractPlugin.loader,
+        "css-loader",
+        "sass-loader"
+    ]
+}
+
 ```
 
 ### 按需加载
